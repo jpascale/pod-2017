@@ -1,0 +1,6 @@
+#mv out/production/pod3/* out/
+cp Manifest.txt out/
+cd out
+jar cfm server.jar Manifest.txt Main.class ar/edu/itba/pod/rmi/def/e4/GenericService.class ar/edu/itba/pod/rmi/def/e4/GenericServiceImpl.class
+cd ..
+mv out/server.jar ./
